@@ -71,11 +71,77 @@
 
 
     <main class="container">
-
-
+      <div class="slider">
+        <div class="sliders">
+          <div class="slider-item">
+            <img src="img/monopod.jpg" alt="Монопод для сэлфи">
+            <b class="slider-promo">Делай селфи,  как Бен Стиллер! </b>
+            <p class="slider-text">Самая длинная палка для селфи доступна в нашем магазине.
+              Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+            <a class="button slider-button" href="#">Подробнее</a>
+            <table>
+              <tr>
+                <th>8,5 м</th>
+                <th>5 кг</th>
+                <th>Карбон</th>
+              </tr>
+              <tr>
+                <td>Длина палки</td>
+                <td>Вес палки</td>
+                <td>Материал</td>
+              </tr>
+            </table>
+          </div>
+          <div class="slider-item">
+            <img src="img/fitness-bracelet.jpg" alt="Фитнес браслет">
+            <b class="slider-promo">Худеем правильно!</b>
+            <p class="slider-text">Мотивирующие фитнес-браслеты помогут найти в себе силы
+              не пропускать занятия и соблюдать диету.</p>
+            <a class="button slider-button" href="#">Подробнее</a>
+            <table>
+              <tr>
+                <th>48 часов</th>
+              </tr>
+              <tr>
+                <td>Без подзарядки</td>
+              </tr>
+            </table>
+          </div>
+          <div class="slider-item">
+            <img src="img/quadcopter.jpg" alt="Квадракоптер">
+            <b class="slider-promo">Порхает как бабочка, жалит как пчела!</b>
+            <p class="slider-text"></p>
+            <a class="button slider-button" href="#">Этот обычный, на первый взгляд, квадрокоптер оснащен
+              мощным лазером, замаскированным под стандартную камеру.</a>
+            <table>
+              <tr>
+                <th>800 м</th>
+                <th>50 м</th>
+              </tr>
+              <tr>
+                <td>Дальность полета</td>
+                <td>Радиус поражения</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="slider-control">
+          <form action="https://echo.htmlacaemy.ru" method="post">
+            <input type="radio" id="btn-1" name="toggle" checked>
+            <input type="radio" id="btn-2" name="toggle">
+            <input type="radio" id="btn-3" name="toggle">
+            <div class="slider-indicator">
+              <div class="circle">
+                <label for="btn-1"></label>
+                <label for="btn-2"></label>
+                <label for="btn-3"></label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
 
     </main>
-
 
     <footer class="main-footer">
       <div class="main-footer-delivery">
@@ -102,7 +168,7 @@
         <a class="button feedback-button" href="#">Напишите нам</a>
       </p>
 
-      <section class="main-footer-top">
+      <div class="main-footer-top">
         <a class="main-footer-logo">
           <img src="img/logo/svg" width="163" height="35" alt="Логотип Девайс">
         </a>
@@ -123,9 +189,9 @@
             </a>
           </p>
         </div>
-      </section>
+      </div>
 
-      <section class="main-footer-middle">
+      <div class="main-footer-middle">
         <address class="main-footer-address">г.Москва,ул.Строителей,15</address>
 
         <ul class="main-footer-information">
@@ -137,9 +203,9 @@
         <p class="main-footer-phone">
           Тел.: +7(495) 495-95-95
         </p>
-      </section>
+      </div>
 
-      <section class="main-footer-bottom">
+      <div class="main-footer-bottom">
         <span class="main-footer-line"></span>
 
         <div class="main-footer-social">
@@ -170,8 +236,7 @@
             </svg>
           </a>
         </p>
-
-      </section>
+      </div>
 
     </footer>
 
