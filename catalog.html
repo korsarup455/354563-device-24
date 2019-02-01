@@ -78,8 +78,80 @@
         <li class="breadcrumbs-current"><a href="#">Моноподы для селфи</a></li>
       </ul>
 
-    </main>
+      <form action="https://" method="post">
+        <h2>Фильтр:</h2>
+        <span class="filter-line"></span>
+        <fieldset>
+          <legend>Стоимость</legend>
+          <div class="filter-roller">
+            <div class="filter-handle filter-handel-min"></div>
+            <div class="filter-handle filter-handel-max"></div>
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+          </div>
+          <div class="filter-section">
+            <label>
+              от
+              <input type="text" name="min" value="0">
+            </label>
+            <label>
+              до
+              <input type="text" name="max" value="5000">
+            </label>
+          </div>
+        </fieldset>
+        <span class="filter-line"></span>
+        <fieldset>
+          <legend>Цвет</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="black" id="black" checked>
+              <label for="black">Черный</label>
+              <span class="checkbox-indicator"></span>
+            </li>
+            <li>
+              <input type="checkbox" name="white" id="white">
+              <label for="white">Белый</label>
+              <span class="checkbox-indicator"></span>
+            </li>
+            <li>
+              <input type="checkbox" name="blue" id="blue" checked>
+              <label for="blue">Синий</label>
+              <span class="checkbox-indicator"></span>
+            </li>
+            <li>
+              <input type="checkbox" name="red" id="red" checked>
+              <label for="red">Красный</label>
+              <span class="checkbox-indicator"></span>
+            </li>
+            <li>
+              <input type="checkbox" name="pink" id="pinf">
+              <label for="pink">Розовый</label>
+              <span class="checkbox-indicator"></span>
+            </li>
+          </ul>
+        </fieldset>
+        <span class="filter-line"></span>
+        <fieldset>
+          <h2>Bluetooth</h2>
+          <ul>
+            <li>
+              <input type="radio" name="radio" id="yes" checked>
+              <label for="yes">Есть</label>
+            </li>
+            <li>
+              <input type="radio" name="radio" id="no">
+              <label for="no">Нет</label>
+            </li>
+          </ul>
+        </fieldset>
+      <button type="button filter-button" name="submit">Показать</button>
+      </form>
 
+
+
+    </main>
 
 
     <footer class="main-footer">
