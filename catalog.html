@@ -9,38 +9,25 @@
       <div class="main-header-top">
         <div class="wrap">
           <a class="main-header-logo">
-            <img src="img/logo.svg" width="163" height="35" alt="Логотип Девайс">
+            <img src="img/logo-device.svg" width="163" height="35" alt="Логотип Девайс">
           </a>
         </div>
-
         <div class="main-header-search">
-          <form action="https://echo.htmlacaemy.ru" method="post">
+          <form action="https://echo.htmlacaemy.ru" method="get">
             <input type="search" name="search" placeholder="Поиск по сайту">
             <button class="button" type="submit">
               <span class="visually-hidden">Найти</span>
             </button>
           </form>
         </div>
-
         <div class="main-header-buttons">
           <ul class="user-navigation">
-            <li><a href="#">Войти</a></li>
+            <li><a class="login-link" href="#">Войти</a></li>
+            <li><a class="compare-link" href="#">Сравнить</a></li>
+            <li><a class="basket-link" href="#">Корзина</a></li>
           </ul>
-
-          <p class="main-header-compare">
-            <a class="button" href="compare.html">
-              Сравнить
-            </a>
-          </p>
-
-          <p class="main-header-basket">
-            <a class="button" href="basket.html">
-              Корзина
-            </a>
-          </p>
         </div>
       </div>
-
       <div class="main-header-middle">
         <nav class="main-header-navigation">
           <ul class="site-navigation">
@@ -56,20 +43,16 @@
             </li>
           </ul>
         </nav>
-
         <ul class="main-header-information">
           <li><a href="delivery.html">Доставка</a></li>
           <li><a href="warranty.html">Гарантия</a></li>
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
       </div>
-
       <div class="main-header-bottom container">
         <span class="main-header-line"></span>
       </div>
     </header>
-
-
     <main class="container">
       <h1>Моноподы для селфи</h1>
       <ul class="breadcrumbs">
@@ -77,7 +60,6 @@
         <li><a href="#">Каталог товаров</a></li>
         <li class="breadcrumbs-current"><a href="#">Моноподы для селфи</a></li>
       </ul>
-
       <form action="https://echo.htmlacademy.ru" method="post">
         <h2>Фильтр:</h2>
         <span class="filter-line"></span>
@@ -134,7 +116,7 @@
         </fieldset>
         <span class="filter-line"></span>
         <fieldset>
-          <h2>Bluetooth</h2>
+          <legend>Bluetooth</legend>
           <ul>
             <li>
               <input type="radio" name="radio" id="yes" checked>
@@ -148,7 +130,6 @@
         </fieldset>
       <button class="button filter-button" type="button" name="submit">Показать</button>
       </form>
-
       <div class="sorting">
         <b class="sorting-title">Сортировка:</b>
         <ul class="sorting-list">
@@ -167,9 +148,8 @@
           </li>
         </ul>
       </div>
-
       <section class="catalog">
-        <h2 class="visually-hidden">Список моноподов</h2>
+        <h2 class="visually-hidden">Моноподы</h2>
         <ul class="catalog-list">
           <li class="catalog-item">
             <h3 class="catalog-item-ttile">
@@ -250,7 +230,6 @@
           </li>
         </ul>
       </section>
-
       <div class="pagination">
         <ul class="pagination-list">
           <li class="pagination-item back"><a href="#">Назад</a></li>
@@ -261,73 +240,32 @@
         </ul>
       </div>
     </main>
-
-
     <footer class="main-footer">
-      <div class="main-footer-delivery">
-        <h2 class="visually-hidden">Транспортные компании</h2>
-        <p class="delivery-text">Мы можем доставить ваш товар в самые отдаленные точки
-          России! DEVICE работает со многими транспортными компаниями:</p>
-
-        <ul>
-          <li><a class="delivery-item" href="#">Деловые линии</a> </li>
-          <li><a class="delivery-item" href="#">Автотрейдинг</a> </li>
-          <li><a class="delivery-item" href="#">ЖелдорЭкспедиция</a> </li>
-        </ul>
-      </div>
-
-      <p>
-        <a class="button about-button" href="#">Подробнее о нас</a>
-      </p>
-
-      <div class="main-footer-map">
-        <a href="#"><img src="img/map.svg" alt="Как до нас добраться"> </a>
-      </div>
-
-      <p>
-        <a class="button feedback-button" href="#">Напишите нам</a>
-      </p>
-
       <div class="main-footer-top">
         <a class="main-footer-logo">
           <img src="img/logo.svg" width="163" height="35" alt="Логотип Девайс">
         </a>
         <div class="main-header-buttons">
-          <ul class="user-navigation">
-            <li><a href="#">Войти</a></li>
+          <ul>
+            <li><a class="login-link" href="#">Войти</a></li>
+            <li><a class="compare-link" href="#">Сравнить</a></li>
+            <li><a class="basket-link" href="#">Корзина</a></li>
           </ul>
-
-          <p class="main-header-compare">
-            <a class="button" href="compare.html">
-              Сравнить
-            </a>
-          </p>
-
-          <p class="main-header-basket">
-            <a class="button" href="basket.html">
-              Корзина
-            </a>
-          </p>
         </div>
       </div>
-
       <div class="main-footer-middle">
         <address class="main-footer-address">г.Москва,ул.Строителей,15</address>
-
         <ul class="main-footer-information">
           <li><a href="delivery.html">Доставка</a></li>
           <li><a href="warranty.html">Гарантия</a></li>
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
-
         <p class="main-footer-phone">
           Тел.: +7(495) 495-95-95
         </p>
       </div>
-
       <div class="main-footer-bottom">
         <span class="main-footer-line"></span>
-
         <div class="main-footer-social">
           <ul>
             <li>
@@ -347,7 +285,6 @@
             </li>
           </ul>
         </div>
-
         <p>
           <a class="main-footer-copyrigth" href="https://htmlacademy.ru/intensive/htmlcss">
             <span class="visually-hidden">HTML Academy</span>
@@ -358,24 +295,22 @@
         </p>
       </div>
     </footer>
-
     <div class="modal write-us">
-      <form action="https://echo.htmlacaemy.ru" method="post">
-        <label for="name">Ваше имя</label>
-        <input type="text" id="name" placeholder="Имя Фамилия">
-        <label for="email">Ваше e-mail:</label>
-        <input type="text" id="email" placeholder="email@example.com">
-        <label for="text">Тескт письма:</label>
-        <textarea type="text" id="text" rows="5" placeholder="В свободной форме"></textarea>
-        <button class="bottom" type="button">Отправить</button>
-        <button class="modal-close">x</button>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label for="user-name">Ваше имя:</label>
+          <input type="text" id="user-name" name="login" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="user-email">Ваше e-mail:</label>
+          <input type="text" id="user-email" name="email" placeholder="email@example.com">
+        </p>
+        <p>
+          <label for="user-text">Тескт письма:</label>
+          <textarea id="user-text" rows="5" name="textarea" placeholder="В свободной форме"></textarea>
+        </p>
+        <button class="bottom" type="submit">Отправить</button>
       </form>
     </div>
-
-    <div class="modal map-popup">
-      <img src="img/map-popup.png" alt="Как до нас добраться">
-      <span class="close">x</span>
-    </div>
-
   </body>
 </html>
